@@ -1,0 +1,41 @@
+#wrapper {
+  width: 850px;
+  background-color: olive;
+  height: 750px;
+  padding-top: 1px;
+}
+#container{
+  background-color: black;
+  width: 650px;
+  height: 550px;
+  border: 5px solid grey;
+  margin: 62px auto;
+  background-image: url('dojo_arena_photos/beach.jpg');
+  background-size: cover;
+}
+h1 {
+  color: #eea300;
+  text-shadow: 2px 2px #e6e6e6;
+  text-align: center;
+}
+#centerdiv {
+  margin: auto;
+  width: 220px;
+  height: 220px;
+  background-color: grey;
+  border: 6px solid grey;
+  border-radius: 5px;
+  margin-top: 45px;
+  opacity: 0.5;
+
+}
+button {
+margin: 3px;
+margin-left: 8px;
+}
+select {
+  margin: auto;
+width: 90px;
+font-size:8px;
+margin-left: 10px;
+}

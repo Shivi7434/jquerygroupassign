@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Dojo Arena</title>
+  <link rel="stylesheet" href="jquerygroup.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#beach1").click(function() {
+        $("#container").css('background-image', 'url(dojo_arena_photos/beach.jpg)');
+      });
+      $("#planet2").click(function() {
+        $("#container").css('background-image', 'url(dojo_arena_photos/earth.jpg)');
+      });
+      $("#dojo3").click(function() {
+        $("#container").css('background-image', 'url(dojo_arena_photos/dojo.jpg)');
+      });
+      $("#forest4").click(function() {
+        $("#container").css('background-image', 'url(dojo_arena_photos/forest.jpg)');
+      });
+      $('#matrix5').click(function() {
+        $('#container').css('background-image', 'url(dojo_arena_photos/matrix.jpg)');
+      });
+      $('#snow6').click(function() {
+        $('#container').css('background-image', 'url(dojo_arena_photos/snow.jpg)');
+      });
+      $('button').click(function() {
+        $('#centerdiv').replaceWith(
+          '<div id="centerdiv"><h1>SelectPlayer</h1><Select> <Option selected disabled> Choose Your Character</Option><option>Donny</option> <option>Leonardo</option><option>Leo</option><option>Raph</option></select><Select> <Option selected disabled> Choose Your Character</Option><option>Donny</option> <option>Leonardo</option><option>Leo</option><option>Raph</option></select></div>'
+        );
+      });
+            
+    });
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="container">
+      <div id="centerdiv">
+        <h1>Select Arena</h1>
+        <button id="beach1" name="button">beach</button>
+        <button id="planet2" name="button">planet</button>
+        <button id="dojo3" name="button">dojo</button>
+        <button id="forest4" name="button">forest</button>
+        <button id="matrix5" name="button">matrix</button>
+        <button id="snow6" name="button">snow</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
